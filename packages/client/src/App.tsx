@@ -1,8 +1,8 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 
-import HelloWorld from './components/HelloWorld';
+import Page from './layout/Page';
 
 
 export default function App() {
-    return <HelloWorld/>;
+    return <Page/>;
 }
